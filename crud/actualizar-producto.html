@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <form class="row g-3 bg-light  mx-auto">
+        <div class="col-md-6">
+          <br>
+          <br>
+          <label for="inputEmail4" class="form-label">Nombre del producto</label>
+          <input type="email" class="form-control" id="inputEmail4">
+        </div>
+        <div class="col-md-6">
+          <br>
+          <br>
+          <label for="inputPassword4" class="form-label">Descripción</label>
+          <input type="password" class="form-control" id="inputPassword4">
+        </div>
+        <div class="col-md-6">
+          <label for="inputCity" class="form-label">Imagen</label>
+          <input type="text" class="form-control" id="inputCity">
+        </div>
+        
+        <div class="col-md-4">
+          <label for="inputState" class="form-label"><br><br>Categoria</label>
+          <select id="inputState" class="form-select">
+            <option selected>Seleccione la categoria...</option>
+            <option>Iphone</option>
+            <option>Xiaomi</option>
+            <option>Samsung</option>
+          </select>
+        </div>
+        <div class="col-md-2">
+          <label for="inputZip" class="form-label">Precio</label>
+          <input type="text" class="form-control" id="inputZip">
+        </div>
+        
+     
+        <div class="col-12">
+          <button type="submit" class="btn btn-primary" onclick="atras()">Actualizar</button>
+        </div>
+    
+      </form>
+
+    
+</body>
+<script>
+  async function atras() {
+    console.log('object');
+    window.location.href = 'http://127.0.0.1:5500/producto.admin.html'
+  }
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+</html>

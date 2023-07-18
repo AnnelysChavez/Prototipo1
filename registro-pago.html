@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <form class="row g-3 needs-validation mx-auto" novalidate>
+        <div class="col-md-4 position-relative">
+            <br>
+          <label for="validationTooltip01" class="form-label">Nombre</label>
+          <input type="text" class="form-control" id="validationTooltip01" value="Mark" required>
+          <div class="valid-tooltip">
+            Looks good!
+          </div>
+        </div>
+        <div class="col-md-4 position-relative">
+            <br>
+          <label for="validationTooltip02" class="form-label">Apellido</label>
+          <input type="text" class="form-control" id="validationTooltip02" value="Otto" required>
+          <div class="valid-tooltip">
+            Looks good!
+          </div>
+        </div>
+        <div class="col-md-3 position-relative">
+            <br>
+            <label for="validationTooltip05" class="form-label">Cedula</label>
+            <input type="text" class="form-control" id="validationTooltip05" required>
+            <div class="invalid-tooltip">
+              Please provide a valid zip.
+            </div>
+          </div>
+        <div class="col-md-6 position-relative">
+            <br>
+          <label for="validationTooltip03" class="form-label">Dirección</label>
+          <input type="text" class="form-control" id="validationTooltip03" required>
+          <div class="invalid-tooltip">
+            Please provide a valid city.
+          </div>
+        </div>
+        <div class="col-md-3 position-relative">
+            <br>
+          <label for="validationTooltip04" class="form-label">Banco hacia donde hizo la transferencia</label>
+          <select class="form-select" id="validationTooltip04" required>
+            <option selected disabled value="">Seleccione una opción</option>
+            <option>Banesco</option>
+            <option>Mercantil</option>
+            <option>Provincial</option>
+            <option>Venezuela</option>
+            <option>Banco Nacional de Credito</option>
+          </select>
+          <div class="invalid-tooltip">
+            Please select a valid state.
+          </div>
+        </div>
+        <div class="col-md-3 position-relative">
+            <label for="validationTooltip05" class="form-label">Referencia de la transferencia</label>
+            <input type="text" class="form-control" id="validationTooltip05" required>
+            <div class="invalid-tooltip">
+              Please provide a valid zip.
+            </div>
+          </div>
+        <div class="col-md-3 position-relative">
+          <label for="validationTooltip05" class="form-label">Monto Exacto de la transferencia</label>
+          <input type="text" class="form-control" id="validationTooltip05" required>
+          <div class="invalid-tooltip">
+            Please provide a valid zip.
+          </div>
+        </div>
+        <div class="col-md-3 position-relative">
+            <br>
+            <label for="validationTooltip05" class="form-label">Descripcion de la compra </label>
+            <input type="text" class="form-control" id="validationTooltip05" required>
+            <div class="invalid-tooltip">
+              Please provide a valid zip.
+            </div>
+          </div>
+          
+        <div class="col-12">
+            <br>
+          <button class="btn btn-primary" type="submit">Enviar</button>
+        </div>
+      </form>    
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+</html>

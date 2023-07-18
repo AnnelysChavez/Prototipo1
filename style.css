@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+.navbar{
+   background: #df81be
+}
+body {
+   margin: 0;
+   padding: 0;
+   font-family: 'Times New Roman', Times, serif;
+   background: linear-gradient(150deg, #815394, #6f9edb);
+   height: 100vh;
+}  
+.container {
+   max-width: 1100px;
+   margin: 0 auto;
+}
+.bee {
+   padding: 150px 0px;
+}
+
+.swiper-slide {
+   font-size: 20px;
+   background: linear-gradient(150deg, #815394, #6f9edb);;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   image-rendering: 100%;
+
+}
+
+.swiper-button-prev::after {
+   font-size: 25px;
+
+}
+.swipper-button-next::after{
+   font-size: 25px;
+
+}
+.swiper-button-next{
+   color: rgb(218, 163, 91);
+}
+.swiper-pagination-bullet{
+   color: rgb(218, 163, 91)
+   opacity: 1;
+}
+.swiper-pagination-bullet-active {
+   background-color: darkgoldenrod;
+}
+.menu-container {
+   position: absolute;
+   top: 0;
+   left: 0;
+   right: 0;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   z-index: 1000;
+}
+.menu-container .logo img {
+   width: 50px;
+
+}
+.menu-container .navbar ul li {
+   position: relative;
+   float: left;
+}
+.menu-container .navbar ul li a{
+   font-size: 18px;
+   padding: 20px;
+   color: rgb(34, 14, 14);
+   display: block;
+}
+.menu-container .navbar ul li a:hover {
+   color: aliceblue;
+
+}
+#menu-container {
+   display: none;
+}
+.menu-icono {
+   width: 25px;
+}
+.menu label {
+ cursor: pointer;
+ display: none;
+}
+
+li{
+   list-style: none;
+}
+
+a{
+   text-decoration: none;
+}
+.header-content{
+  
+   margin-top: 100px;
+
+
+}
+.slider{
+   width: 1100px;
+}
+.slider{
+   width: 420px;
+}
+
